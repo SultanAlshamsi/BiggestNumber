@@ -18,25 +18,21 @@ int biggest;
 
   cout<<"Please enter another whole number:\n";
 
-  cin >> number2;  
+  cin>> number2;
 
- 
-if ( number1 > number2 ) 
+
+
+  if(number1>number2)
 {
 
-    biggest=number1; 
+    biggest=number1;}
 
-}
-else  
-{
+    else {biggest=number2;}
 
-    biggest=number2;
 
-}
+    cout<<"Of those two numbers, the biggest is: "<< biggest <<endl;
+    cout<<"Thank you for playing."<<endl;
 
-cout <<"of those two numbers, the biggest is: "<<biggest;
-
-  cout<<endl<<"Thank you for playing.\n";
 
   return 0;
 }
